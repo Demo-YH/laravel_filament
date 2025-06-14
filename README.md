@@ -56,12 +56,17 @@
 #### ※個人お試し用以外での用途は非推奨  
 ## git clone後  
 #### 1. docker exec -it conteinerID bashでコンテナにはいる  
-#### 2. composer update　コマンド実行でautoload.php作成  
-#### 3. cp .env.example .env　コマンドで.env作成  
-#### 4. php artisan key:generate　コマンド実行  
-#### 5. php artisan migrate　コマンドでdb再度作成
-#### 6. php artisan make:filament-user　コマンド実行でuser登録情報再度作成  
-#### 7. bun install　コマンドでbunインストール  
-#### 8. bun run build　コマンド実行  
+#### 2．cd example　コマンド実行  
+#### 3. composer update　コマンド実行でautoload.php作成  
+#### 4. cp .env.example .env　コマンドで.env作成  
+#### 5. php artisan key:generate　コマンド実行  
+#### 6. php artisan migrate　コマンドでdb再度作成
+#### 7. php artisan make:filament-user　コマンド実行でuser登録情報再度作成  
+#### 8. bun install　コマンドでbunインストール  
+#### 9. bun run build　コマンド実行  
 ## 参考  
 #### [tutorialはこちら](https://filamentphp.com/docs/3.x/panels/getting-started#prerequisites)  
+## 所感  
+#### 一般的な使い方はよくわからないけど、頑張らなくても素敵レイアウトができる。  
+#### 頑張ってすべてのキャプションを日本語にしたかったが変更箇所が不明でできなかった。  
+#### 通貨単位が€なので円のformatは何なのか調べて初めて知った。
