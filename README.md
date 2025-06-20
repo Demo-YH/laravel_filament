@@ -43,7 +43,6 @@
 #### DB_HOST=127.0.0.1　使用しているdb名に修正  
 #### DB_HOST以降からDB_PASSWORDまでのコメントアウト解除及び、自身で設定した内容への修正を行う  
 #### 20. php artisan migrate　コマンドでマイグレーション仕直す  
-#### ※php.newでの環境構築と同等にしたかったので、上記packageを選択しているのでpackageはお好みでどうぞ  
 #### 21. composer require filament/filament:"^3.2" -W　コマンドでfilamentインストール  
 #### 22. php artisan filament:install --panels　コマンド実行でpanelインストール  
 #### 23. php artisan make:filament-user　コマンド実行でuser登録情報作成  
