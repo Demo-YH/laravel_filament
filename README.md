@@ -93,4 +93,9 @@ npm run dev
   - `patients` テーブルは `owner_id` に外部キー制約を設けており、親が削除されたら子も削除（cascade）されるようになっています。これはデータ整合性を保つための一般的な設計です。
 
 ## 今後の改善予定
-- 認証の詳細設定（パスワードリセット、権限レベル）
+- 認証の詳細設定（パスワードリセット、権限レベル）  
+
+[![Loom Video](https://img.shields.io/badge/Demo_Video-Loom-625DF5?style=for-the-badge&logo=loom)](https://www.loom.com/share/c4a2ee41b416418abf3a0d582eb7a2ca)
+
+[▶️ 動作デモ動画を視聴する（Loom）](https://www.loom.com/embed/c4a2ee41b416418abf3a0d582eb7a2ca)
+
